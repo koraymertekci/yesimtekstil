@@ -1,0 +1,29 @@
+<svg width="120" height="140" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rectangle with double border -->
+  <rect x="4" y="4" width="72" height="72" rx="4" stroke="#1e40af" stroke-width="3" fill="none"/>
+  <rect x="7" y="7" width="66" height="66" rx="2" stroke="#1e40af" stroke-width="2" fill="none"/>
+  
+  <!-- Large stylized uppercase Y letter (architectural/structural) -->
+  <path d="M20 20 L40 50 L60 20" stroke="#1e40af" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M40 50 L40 70" stroke="#1e40af" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Orange four-pointed star/sparkle in upper right corner -->
+  <g transform="translate(56, 12)">
+    <path d="M0 0 L3 -3 M1.5 -1.5 L1.5 1.5 M1.5 -1.5 L-1.5 -1.5 M1.5 -1.5 L4.5 -1.5" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1.5" cy="-1.5" r="2.5" fill="#f97316" opacity="0.4"/>
+  </g>
+  
+  <!-- YEŞİM text below (bold serif) -->
+  <text x="40" y="100" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1e40af" text-anchor="middle" letter-spacing="2">
+    <tspan>YE</tspan>
+    <tspan dy="0" dx="0">Ş</tspan>
+    <tspan dy="0" dx="0">İM</tspan>
+  </text>
+  
+  <!-- EST 1956 with decorative lines -->
+  <line x1="20" y1="115" x2="30" y2="115" stroke="#1e40af" stroke-width="1.5"/>
+  <line x1="30" y1="115" x2="30" y2="120" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="40" y="118" font-family="Georgia, serif" font-size="9" fill="#1e40af" text-anchor="middle" letter-spacing="1">EST 1956</text>
+  <line x1="50" y1="115" x2="60" y2="115" stroke="#1e40af" stroke-width="1.5"/>
+  <line x1="50" y1="115" x2="50" y2="120" stroke="#1e40af" stroke-width="1.5"/>
+</svg>
