@@ -52,4 +52,4 @@ Bu proje, sunucu ve istemci taraflarını tek bir çatı altında toplar.
 │   ├── src/                 # React bileşenleri, sayfalar ve hook'lar
 │   # NOT: Geliştirme yapılan, okunabilir React kodları inceleme için buradadır.
 │
-└── .env                     # Çevre değişkenleri (Şifreler vb.):
+└── .env                     # Çevre değişkenleri (Şifreler vb.) ;
