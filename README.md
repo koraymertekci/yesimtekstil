@@ -52,4 +52,18 @@ Bu proje, sunucu ve istemci taraflarını tek bir çatı altında toplar.
 │   ├── src/                 # React bileşenleri, sayfalar ve hook'lar
 │   # NOT: Geliştirme yapılan, okunabilir React kodları inceleme için buradadır.
 │
-└── .env                     # Çevre değişkenleri (Şifreler vb.) ;
+└── .env                     # Çevre değişkenleri (Şifreler vb.)
+
+## 🔌 API Uç Noktaları (Endpoints)
+
+| Metot | URL | Açıklama |
+|-------|-----|----------|
+| **AUTH** | | |
+| POST | `/api/auth/register` | Yeni kullanıcı kaydı |
+| POST | `/api/auth/login` | Kullanıcı girişi (Token döner) |
+| **STOK** | | |
+| GET | `/api/stocks` | Tüm stokları listeler |
+| POST | `/api/stocks` | Yeni stok ekler |
+| DELETE| `/api/stocks/:id` | Stok siler |
+| **SATIŞ** | | |
+| POST | `/api/sales` | Satış yapar (Stoktan düşer - İş Kuralı) | 
