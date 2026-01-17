@@ -74,4 +74,4 @@ Bu proje, sunucu ve istemci taraflarını tek bir çatı altında toplar.
 models/: Veri modeli ve SQL sorguları.
 routers/: REST uç noktaları (endpoints).
 utils/: Standart API response ve hata yönetimi sınıfları.
-config/db.js: Veritabanı bağlantı konfigürasyonu.
+config/db.js: Veritabanı bağlantı konfigürasyonu..
